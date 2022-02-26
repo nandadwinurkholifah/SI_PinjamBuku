@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SI_PinjamBuku.ClsBuku">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAICAkKIAAAAigCAAAAAIECQAAAAAAIAQAEAAAAAAA=</HashCode>
+      <FileName>ClsBuku.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SI_PinjamBuku.ClsSiswa">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBACEkAAAAACCAQAAAAIMAAQAABACAAgQAFABFAAAA=</HashCode>
+      <FileName>ClsSiswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SI_PinjamBuku.ClsBuktiPinjam">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAAAAAACAAAAAIIACAAAAAAAAwQAQAAAAAAA=</HashCode>
+      <FileName>ClsBuktiPinjam.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SI_PinjamBuku.ClsAda">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAmCAAAAAACAAAABAIACAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ClsAda.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

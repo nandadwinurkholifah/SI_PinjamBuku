@@ -1,0 +1,611 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SI_PinjamBuku
+</name>
+</assembly>
+<members>
+<member name="T:SI_PinjamBuku.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SI_PinjamBuku.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SI_PinjamBuku.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.adaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukti_pinjamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.adaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukti_pinjamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.adaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukti_pinjamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.bukuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.adaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.bukti_pinjamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.bukuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SI_PinjamBuku.pinajambuku3DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SI_PinjamBuku.pinajambuku3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SI_PinjamBuku.pinajambuku3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.UpdateAll(SI_PinjamBuku.pinajambuku3DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku3DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.adaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukti_pinjamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.adaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukti_pinjamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.adaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukti_pinjamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.bukuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.adaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.bukti_pinjamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.bukuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SI_PinjamBuku.pinajambuku4DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SI_PinjamBuku.pinajambuku4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SI_PinjamBuku.pinajambuku4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.UpdateAll(SI_PinjamBuku.pinajambuku4DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambuku4DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.adaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukti_pinjamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.adaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukti_pinjamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.adaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukti_pinjamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.bukuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.adaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.bukti_pinjamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.bukuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SI_PinjamBuku.pinajambukufinalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SI_PinjamBuku.pinajambukufinalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SI_PinjamBuku.pinajambukufinalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.UpdateAll(SI_PinjamBuku.pinajambukufinalDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinajambukufinalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.adaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukti_pinjamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.adaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukti_pinjamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.adaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukti_pinjamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.bukuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.adaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.bukti_pinjamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.bukuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SI_PinjamBuku.pinjambuku0DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SI_PinjamBuku.pinjambuku0DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SI_PinjamBuku.pinjambuku0DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.UpdateAll(SI_PinjamBuku.pinjambuku0DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku0DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.bukuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.bukuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.bukuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.bukuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SI_PinjamBuku.pinjambuku1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SI_PinjamBuku.pinjambuku1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SI_PinjamBuku.pinjambuku1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.UpdateAll(SI_PinjamBuku.pinjambuku1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SI_PinjamBuku.pinjambuku1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

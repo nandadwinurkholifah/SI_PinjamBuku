@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CB09E39-A90D-4F12-BAB9-E2DF76CDD4C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SI_PinjamBuku.My.MyApplication</StartupObject>
+    <RootNamespace>SI_PinjamBuku</RootNamespace>
+    <AssemblyName>SI_PinjamBuku</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SI_PinjamBuku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SI_PinjamBuku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OleDb, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.5.0.0\lib\net461\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsAda.vb" />
+    <Compile Include="ClsBuktiPinjam.vb" />
+    <Compile Include="ClsBuku.vb" />
+    <Compile Include="ClsSiswa.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterBuku.Designer.vb">
+      <DependentUpon>FrmMasterBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterSiswa.Designer.vb">
+      <DependentUpon>FrmMasterSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPinjamBuku.Designer.vb">
+      <DependentUpon>FrmPinjamBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPinjamBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopUpBuku.Designer.vb">
+      <DependentUpon>FrmPopUpBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPopUpBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopUpSiswa.Designer.vb">
+      <DependentUpon>FrmPopUpSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPopUpSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptTemp.Designer.vb">
+      <DependentUpon>frmRptTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulCetak.vb" />
+    <Compile Include="ModulKoneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pinajambuku3DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pinajambuku3DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pinajambuku4DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pinajambuku4DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pinajambukufinalDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pinajambukufinalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pinjambuku0DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pinjambuku0DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pinjambuku1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pinjambuku1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RptCetakBukti.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptCetakBukti.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptMasterBuku.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptMasterBuku.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterBuku.resx">
+      <DependentUpon>FrmMasterBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterSiswa.resx">
+      <DependentUpon>FrmMasterSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPinjamBuku.resx">
+      <DependentUpon>FrmPinjamBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPopUpBuku.resx">
+      <DependentUpon>FrmPopUpBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPopUpSiswa.resx">
+      <DependentUpon>FrmPopUpSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptTemp.resx">
+      <DependentUpon>frmRptTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptCetakBukti.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptCetakBukti.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptMasterBuku.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMasterBuku.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CDiag_51904110038.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="pinajambuku3DataSet.xsc">
+      <DependentUpon>pinajambuku3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinajambuku3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pinajambuku3DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pinajambuku3DataSet.xss">
+      <DependentUpon>pinajambuku3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinajambuku4DataSet.xsc">
+      <DependentUpon>pinajambuku4DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinajambuku4DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pinajambuku4DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pinajambuku4DataSet.xss">
+      <DependentUpon>pinajambuku4DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinajambukufinalDataSet.xsc">
+      <DependentUpon>pinajambukufinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinajambukufinalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pinajambukufinalDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pinajambukufinalDataSet.xss">
+      <DependentUpon>pinajambukufinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinjambuku0DataSet.xsc">
+      <DependentUpon>pinjambuku0DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinjambuku0DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pinjambuku0DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pinjambuku0DataSet.xss">
+      <DependentUpon>pinjambuku0DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinjambuku1DataSet.xsc">
+      <DependentUpon>pinjambuku1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pinjambuku1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pinjambuku1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pinjambuku1DataSet.xss">
+      <DependentUpon>pinjambuku1DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pinajambuku3.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pinajambuku4.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pinajambukufinal.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pinjambuku0.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pinjambuku1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
